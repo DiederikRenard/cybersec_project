@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block description %}{% endblock %}
+{% block robots %}{% endblock %}
+{% block keywords %}{% endblock %}
+{% block css %}static/style/home_style.css{% endblock %}
+
+{% block title %}Gamefy Cyber Security{% endblock %}
+
+
+{% block body %}
+
+<div class="card">
+    <div class="question">
+        <h1>Question</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis qui est sunt deserunt. Ab sed id vero minima magnam? Accusantium omnis officiis iusto suscipit.</h3>
+    </div>
+    <div class="answer"><h1>Your Answer</h1></div>
+    <form action="Answer" class="answer-field">
+        <input type="text" name="answer-field" id="answer-field">
+    </form>
+    <div class="buttons">
+        <div class="btn" id="turn">Turn</div>
+        <div class="btn" id="hint">Hint</div>
+    </div> 
+
+</div>
+
+{% endblock %}
